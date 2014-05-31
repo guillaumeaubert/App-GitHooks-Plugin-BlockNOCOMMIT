@@ -9,13 +9,12 @@ WriteMakefile
                    'App::GitHooks' => 0,
                    'Capture::Tiny' => 0,
                    'Carp' => 0,
+                   'Data::Validate::Type' => 0,
                    'File::Slurp' => 0,
-                   'System::Command' => 0,
                    'Test::Exception' => 0,
                    'Test::FailWarnings' => 0,
                    'Test::Git' => 0,
-                   'Test::More' => '0.94',
-                   'Test::Type' => 0
+                   'Test::More' => '0.94'
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

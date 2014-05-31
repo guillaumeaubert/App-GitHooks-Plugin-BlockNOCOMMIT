@@ -8,8 +8,8 @@ use base 'App::GitHooks::Plugin';
 
 # External dependencies.
 use Carp;
+use Data::Validate::Type;
 use File::Slurp ();
-use System::Command;
 
 # Internal dependencies.
 use App::GitHooks::Constants qw( :PLUGIN_RETURN_CODES );
