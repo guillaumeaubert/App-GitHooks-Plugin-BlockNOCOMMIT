@@ -1,3 +1,4 @@
+.perlcriticrc
 README.md
 example/examples.txt
 lib/App/GitHooks/Plugin/BlockNOCOMMIT.pm
