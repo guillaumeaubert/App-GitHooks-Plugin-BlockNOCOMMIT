@@ -11,6 +11,7 @@ WriteMakefile
                    'Carp' => 0,
                    'Data::Validate::Type' => 0,
                    'File::Slurp' => 0,
+                   'Git::Repository' => 0,
                    'Test::Exception' => 0,
                    'Test::FailWarnings' => 0,
                    'Test::Git' => 0,
