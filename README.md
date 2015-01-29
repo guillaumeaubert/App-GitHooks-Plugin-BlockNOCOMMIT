@@ -3,6 +3,7 @@ App-GitHooks-Plugin-BlockNOCOMMIT
 
 [![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-BlockNOCOMMIT.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-BlockNOCOMMIT)
 [![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-BlockNOCOMMIT/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-BlockNOCOMMIT?branch=master)
+[![Latest Version](https://img.shields.io/github/tag/guillaumeaubert/App-GitHooks-Plugin-BlockNOCOMMIT.svg?style=flat)](https://metacpan.org/release/App-GitHooks-Plugin-BlockNOCOMMIT)
 
 App::GitHooks plugin to prevent committing code with #NOCOMMIT mentions.
 
