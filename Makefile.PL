@@ -3,26 +3,26 @@ require 5.010;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
+  'INSTALLDIRS' => 'site',
+  'PL_FILES' => {},
+  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/BlockNOCOMMIT.pm',
+  'EXE_FILES' => [],
   'test' => {
               'TESTS' => 't/*.t'
             },
-  'EXE_FILES' => [],
   'NAME' => 'App::GitHooks::Plugin::BlockNOCOMMIT',
-  'INSTALLDIRS' => 'site',
-  'PL_FILES' => {},
   'PREREQ_PM' => {
-                   'Data::Validate::Type' => 0,
-                   'Test::More' => '0.94',
-                   'Test::FailWarnings' => 0,
-                   'App::GitHooks' => 0,
-                   'Git::Repository' => 0,
-                   'Test::Type' => 0,
-                   'Carp' => 0,
-                   'File::Slurp' => 0,
                    'Capture::Tiny' => 0,
+                   'Test::More' => '0.94',
+                   'Test::Exception' => 0,
+                   'Git::Repository' => 0,
+                   'Data::Validate::Type' => 0,
+                   'App::GitHooks' => 0,
+                   'Carp' => 0,
+                   'Test::Type' => 0,
+                   'Test::FailWarnings' => 0,
                    'Test::Requires::Git' => '1.005',
-                   'Test::Exception' => 0
-                 },
-  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/BlockNOCOMMIT.pm'
+                   'File::Slurp' => 0
+                 }
 )
 ;

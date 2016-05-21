@@ -1,5 +1,8 @@
 Revision history for App-GitHooks-Plugin-BlockNOCOMMIT
 
+v1.1.1  2016-05-21
+        - Cleaned up changelog.
+
 v1.1.0  2016-05-21
         - Switched to Test::Requires::Git instead of the now obsolete
           Test::Git::has_git(). Thank you, Philippe Bruhat!
